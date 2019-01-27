@@ -1,0 +1,30 @@
+{
+  "name": "thekavish/todolist",
+  "description": "You can create the todo-list of your task.",
+  "keywords": ["todo","tasks"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kavish Patel",
+      "email": "kavish619@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "laravelcollective/html": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Thekavish\\Todolist\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Thekavish\\Todolist\\TodolistServiceProvider"
+      ]
+    }
+  }
+}
